@@ -1,5 +1,5 @@
 import {useState, Fragment} from 'react'
-import MU from '../Assets/Images/Subject.png';
+import MU from '../Assets/Images/mugff.png';
 import MU2 from '../Assets/Images/musea.png';
 import MU3 from '../Assets/Images/mufitu.png';
 import MU4 from '../Assets/Images/musayit.png';
