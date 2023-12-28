@@ -1,8 +1,8 @@
 import {useState, Fragment} from 'react'
-import MU from '../Assets/Images/mugff.png';
-import MU2 from '../Assets/Images/musea.png';
-import MU3 from '../Assets/Images/mufitu.png';
-import MU4 from '../Assets/Images/musayit.png';
+import MU from '../assets/images/mugff.png';
+import MU2 from '../assets/images/musea.png';
+import MU3 from '../assets/images/mufitu.png';
+import MU4 from '../assets/images/musayit.png';
 import GitHubIcon from '@mui/icons-material/GitHub';
 import { Menu, Transition } from '@headlessui/react';
 
