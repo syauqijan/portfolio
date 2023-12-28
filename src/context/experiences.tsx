@@ -13,7 +13,7 @@ const experiences = () => {
         
     ];
   return (
-    <div><section id="experiences" className="pr-8 pl-8 ">
+    <div><section id="experiences" className="pr-8 pl-8 pb-28">
     <div className=' items-center  flex flex-row space-x-4' >
       <h2 className=' text-4xl text-center font-poppins '>Experiences<span className='text-quaternary'>.</span></h2>
       <hr className='w-1/2 border-1 border-lightAccent' />
@@ -37,7 +37,7 @@ const experiences = () => {
                 <p className='text-lg md:text-3xl my-2 font-bold text-left text-quaternary'>{journey.position}</p>
                 <p className='text-lg md:text-xl my-2 text-right'>{journey.location}</p>
             </div>
-            <p className='text-md md:text-xl my-2 text-justify'>{journey.description}</p>
+            <p className='text-lg md:text-xl my-2 text-justify'>{journey.description}</p>
            
           </div>
         </div>
