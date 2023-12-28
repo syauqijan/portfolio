@@ -2,12 +2,12 @@ import { TypeAnimation } from "react-type-animation";
 export default function About() {
     return (
       <div>
-            <section className='h-screen flex flex-col justify-center items-center pr-4 pl-4 '>
+            <section className='h-screen flex flex-col justify-center items-center pr-4 pl-4  '>
               {/* <div>
                 <Image className='rounded-full mb-10' width={120} height={120} src={Profile} alt="profile"/>
               </div> */}
-              <div className="pb-8">
-                <p className="text-4xl font-bold  px-2 text-center h-16 font-poppins ">
+              <div className="pb-8 md:pb-16">
+                <p className="text-4xl font-bold  px-2 text-center h-16 font-poppins md:text-7xl md:pr-20 md:pl-20 ">
                       <TypeAnimation
                           cursor={true}
                           sequence={[
@@ -23,7 +23,7 @@ export default function About() {
                 
                 <br />
                 <br />
-                <p className='text-lg text-justify pl-5 pr-5'>an undergraduate Computer Science student from the School of Electrical Engineering and Informatics at Bandung Institute of Technology(ITB).
+                <p className='text-lg text-justify pl-5 pr-5 md:pr-32 md:pl-32 md:text-2xl'>an undergraduate Computer Science student from the School of Electrical Engineering and Informatics at Bandung Institute of Technology(ITB).
                   I also interested in computer-related things such as web development and software development.</p>
               </section>
             
