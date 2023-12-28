@@ -25,7 +25,7 @@ const closing = () => {
 
         </p>
         <p className='text-lg md:text-2xl'>
-            I mean that. Seriously.
+            I mean it. Seriously.
         </p>
     </div>
   )
