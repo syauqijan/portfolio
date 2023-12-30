@@ -1,4 +1,6 @@
+import { Replay10 } from '@mui/icons-material';
 import GFF from '../assets/images/gff.jpg'; 
+import { Reveal } from '../components/Reveal';
 const experiences = () => {
     const journeyArray = [
         {
@@ -13,10 +15,13 @@ const experiences = () => {
         
     ];
   return (
-    <div><section id="experiences" className="pr-8 pl-8 pb-28 md:pr-32 md:pl-32">
-    <div className=' items-center  flex flex-row space-x-6' >
+    <div><section id="experiences" className="pr-8 pl-8 pb-36 md:pr-32 md:pl-32">
+    <div className=' items-center  justify-between w-full flex flex-row space-x-6' >
+    <Reveal>
       <h2 className=' text-4xl text-center font-poppins md:text-6xl'>Experiences<span className='text-quaternary'>.</span></h2>
-      <hr className='w-full border-1 border-lightAccent' />
+    </Reveal>
+
+      <hr className='flex-grow border-1 border-lightAccent' />
     </div>
     <div className="overflow-hidden flex-col ">
       {journeyArray.map((journey, idx) => (
@@ -30,16 +35,24 @@ const experiences = () => {
     
           <div className='flex flex-col justify-center'>
             <div className='flex flex-row items-center justify-between '>
+              <Reveal>
               <p className='text-xl md:text-3xl my-2 font-bold text-left '>{journey.organization}</p>
+              </Reveal>
+              <Reveal>
               <p className='text-lg md:text-2xl my-2 text-right '>{journey.period}</p>
-              
+              </Reveal>
             </div>
             <div className='flex flex-row items-center justify-between'>
+                <Reveal>
                 <p className='text-lg md:text-3xl my-2 font-bold text-left text-quaternary'>{journey.position}</p>
+                </Reveal>
+                <Reveal>
                 <p className='text-lg md:text-2xl my-2 text-right'>{journey.location}</p>
+                </Reveal>          
             </div>
+            <Reveal>
             <p className='text-lg md:text-2xl my-2 text-justify'>{journey.description}</p>
-           
+            </Reveal>
           </div>
         </div>
       ))}
