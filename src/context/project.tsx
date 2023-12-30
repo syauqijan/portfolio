@@ -59,10 +59,10 @@ const Project: FC<ProjectProps> = ({ project }) => {
     
         <div key={project.name}>
             
-            <Menu as="div" className="cursor-pointer " >
+            <Menu as="div" className=" " >
                 <Menu.Button>
                     <Reveal>
-                    <p className='text-xl md:text-3xl my-2 font-bold text-left cursor-pointer' onClick={() => handleDesc(project.name)}>{project.name}</p>
+                    <p className='font-medium text-xl md:text-3xl my-2 text-left cursor-pointer' onClick={() => handleDesc(project.name)}>{project.name}</p>
                     </Reveal>
                 </Menu.Button>
                 <Transition
@@ -76,7 +76,7 @@ const Project: FC<ProjectProps> = ({ project }) => {
                     leaveTo="opacity-0 scale-y-0 -translate-y-1/2"
                     >
                 
-                    <Menu.Items className="flex flex-col justify-center mb-5 focus:outline-none">
+                    <Menu.Items className="flex flex-col justify-center mb-5 focus:outline-none " onClick={() => handleDesc(project.name)}>
                         <div className="py-1">
                             <Menu.Item>
                                 <div className="md:flex md:flex-row-reverse md:items-center md:content-center md:justify-between">
@@ -91,18 +91,18 @@ const Project: FC<ProjectProps> = ({ project }) => {
 
                                     <div className="flex flex-col justify-center md:w-1/2">
                                         <Reveal>
-                                        <p className="text-xl md:text-2xl my-2 text-center font-bold text-quaternary md:justify-self-start md:text-left">
+                                        <p className="text-xl md:text-2xl my-2 text-center font-medium text-quaternary md:justify-self-start md:text-left">
                                             {project.position}
                                         </p>
                                         </Reveal>
                                         <Reveal>
-                                        <p className="text-lg md:text-2xl my-2 text-justify">{project.description}</p>
+                                        <p className="font-extralight text-lg md:text-2xl my-2 text-justify">{project.description}</p>
                                         </Reveal>
                                         <Reveal>
-                                        <p className="text-lg md:text-2xl my-2 text-justify text-quaternary">Made with:</p>
+                                        <p className="font-light  text-lg md:text-2xl my-2 text-justify text-quaternary">Made with:</p>
                                         </Reveal>
                                         <Reveal>
-                                        <div className="flex flex-row space-x-5 mu-4 mb-7">
+                                        <div className="flex flex-row space-x-5 mu-4 mb-7 ">
                                             {renderTechIcon(project.mwreact, react)}
                                             {renderTechIcon(project.mwnode, nodejs)}
                                             {renderTechIcon(project.mwnext, nextjs)}
@@ -115,11 +115,11 @@ const Project: FC<ProjectProps> = ({ project }) => {
                                         </div>
                                         </Reveal>
 
-                                        <div className='flex flex-row items-center text-center justify-center space-x-5 md:space-x-20 md:text-left md:justify-start'>
+                                        <div className='max-h-48 flex flex-row items-center text-center justify-center space-x-5 md:space-x-20 md:text-left md:justify-start'>
                                         
-                                            <a href={project.github} target="_blank" className='text-md md:text-xl my-2 text-justify text-primary hover:text-lightAccent'>
+                                            <a href={project.github} target="_blank" className=' max-h-48 text-md md:text-xl my-2 text-justify text-primary '>
                                                 <Reveal>
-                                                <button className='bg-quaternary w-32 h-10 items-center text-center justify-center rounded-md shadow-md flex' >
+                                                <button className='bg-quaternary w-32  max-h-48 items-center text-center justify-center rounded-md shadow-md flex ' >
                                                 <GitHubIcon className='text-md md:text-xl my-2 text-justify col' />
                                                     {/* <img src={github} width={28} height={28}  alt={'Logo Github'} /> */}
                                                 </button>
@@ -231,11 +231,11 @@ const Projects = () => {
 
     return (
         <section id="projects" className="pr-8 pl-8 pb-28 md:pr-32 md:pl-32">
-          <div className="items-center flex flex-row space-x-4 mb-10">
+          <div className="items-center flex flex-row space-x-4 mb-10 ">
             <div className="flex items-center justify-between w-full">
               <hr className="border-1 border-lightAccent flex-grow" />
               <Reveal>
-                <h2 className="text-4xl font-poppins md:text-6xl mx-4">
+                <h2 className="text-4xl font-black font-poppins md:text-6xl mx-4">
                   Projects<span className="text-quaternary">.</span>
                 </h2>
               </Reveal>
