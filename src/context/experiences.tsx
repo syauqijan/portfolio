@@ -15,7 +15,7 @@ const experiences = () => {
         
     ];
   return (
-    <div><section id="experiences" className="pr-8 pl-8 pb-36 md:pr-32 md:pl-32">
+    <div><section id="experiences" className="pr-8 pl-8 pb-28 md:pr-32 md:pl-32">
     <div className=' items-center  justify-between w-full flex flex-row space-x-6' >
     <Reveal>
       <h2 className=' text-4xl text-center font-poppins md:text-6xl'>Experiences<span className='text-quaternary'>.</span></h2>

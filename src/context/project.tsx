@@ -151,12 +151,25 @@ const Project: FC<ProjectProps> = ({ project }) => {
 
 
                 </Transition>
+                {/* <hr className='border-white/70 border-1 w-full mx-auto mb-5 mt-5' /> */}
+                {/* <Transition
+                    show={desc === project.name}
+                    as={Fragment}
+                    enter="transition ease-out duration-300 transform"
+                    enterFrom="opacity-0 scale-y-0 -translate-y-1/2"
+                    enterTo="opacity-100 scale-y-100 translate-y-0"
+                    leave="transition ease-in duration-300 transform"
+                    leaveFrom="opacity-100 scale-y-100 translate-y-0"
+                    leaveTo="opacity-0 scale-y-0 -translate-y-1/2"
+                    >
+                    <hr className={`transition-opacity duration-500 ${desc === project.name ? 'opacity-0' : 'opacity-100'} border-white/70 border-1 w-full mx-auto mb-5`} />
+                    </Transition> */}
                 
                 
                 
             </Menu>
-            {/* <hr className={`transition-opacity duration-500 ${desc === project.name ? 'opacity-0' : 'opacity-100'} border-white/70 border-1 w-full mx-auto mb-5`} /> */}
-
+            {/* <hr className={`transition-opacity duration-100 ${desc === project.name ? 'opacity-0' : 'opacity-100'} border-white/70 border-1 w-full mx-auto mb-5`} /> */}
+            <hr className={`transition-opacity ${desc === project.name ? 'duration-0' : 'duration-1200'} ${desc === project.name ? 'opacity-0' : 'opacity-100'} border-white/70 border-1 w-full mx-auto mb-5`} />
             
         </div>
     );

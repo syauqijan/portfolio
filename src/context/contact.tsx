@@ -3,7 +3,7 @@ import { Reveal } from "../components/Reveal"
 const contact = () => {
   return (
     <div>
-        <section className="pl-8 pr-8 pb-18 md:pl-32 md:pr-32 md:pt-32">
+        <section className="pl-8 pr-8 pb-18 md:pl-32 md:pr-32 md:pt-20">
             <div className=' justify-between w-full items-center text-center flex pb-8 md:justify-start' >
             <Reveal> 
                 <h2 className=' text-4xl text-center font-poppins md:text-6xl md:text-left md:justify-start '>Contact<span className='text-quaternary'>.</span></h2>
