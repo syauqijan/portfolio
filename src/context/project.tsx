@@ -3,6 +3,7 @@ import MU from '../assets/images/mugff.png';
 import MU2 from '../assets/images/musea.png';
 import MU3 from '../assets/images/mufitu.png';
 import MU4 from '../assets/images/musayit.png';
+import MU5 from '../assets/images/musere.png';
 import react from '../assets/images/projects/react.svg';
 import nodejs from '../assets/images/projects/node-js.svg';
 import nextjs from '../assets/images/projects/next-js.svg';
@@ -193,7 +194,18 @@ const Projects = () => {
             mwpython: false,  
         },
         {
-            name: '02 - SEA Cinema Website',
+            name: '02 - Serenade Music Streaming App',
+            position: `Fullstack Developer | UI Designer`,
+            description: 'A music streaming app that fetches music from an external database and has the functionality of a typical music streaming app.',
+            madewith: '',
+            image: MU5,
+            github: 'https://github.com/syauqijan/serenade',
+            live: 'https://serenade-music.vercel.app/',
+            mwnext: true,
+            mwtailwind: true,
+        }, 
+        {
+            name: '03 - SEA Cinema Website',
             position: `Frontend Developer | UI Designer`,
             description: 'A web application that allows users to browse movies, book tickets, and manage their cinema experience. Users can view movie details, including synopsis, cast, age rating, and ticket price. They can also select seats, provide personal information, and make payments for their movie tickets.',
             madewith: '',
@@ -206,7 +218,7 @@ const Projects = () => {
         
         },
         {
-            name: '03 - FitU App',
+            name: '04 - FitU App',
             position: `Frontend Developer | UI Designer`,
             description: 'A desktop application that can help users create personal exercise programs. The FitU application offers various types of exercises that can be personalized according to the user\'s needs. The FitU application offers various features to support its users\' exercise, such as movement examples and exercise instructions to ensure that users perform exercises correctly and safely.',
             madewith: '',
@@ -217,7 +229,7 @@ const Projects = () => {
         
         },
         {
-            name: '04 - SayIt Website',
+            name: '05 - SayIt Website',
             position: `Fullstack Developer | UI Designer`,
             description: 'A website application that allows users to report cases of sexual harassment, there are also articles about sexual education and a timeline that allows users to upload posts about sexual education and mental health',
             madewith: '',
@@ -227,6 +239,7 @@ const Projects = () => {
             mwcss: true,
             mwjs: true,
         }, 
+        
     ];
 
     return (
