@@ -239,6 +239,7 @@ const Projects = () => {
             mwcss: true,
             mwjs: true,
         }, 
+
         
     ];
 
@@ -248,7 +249,7 @@ const Projects = () => {
             <div className="flex items-center justify-between w-full">
               <hr className="border-1 border-lightAccent flex-grow" />
               <Reveal>
-                <h2 className="text-4xl font-black font-poppins md:text-6xl mx-4">
+                <h2 className="h-20 text-4xl font-black font-poppins md:text-6xl mx-4">
                   Projects<span className="text-quaternary">.</span>
                 </h2>
               </Reveal>

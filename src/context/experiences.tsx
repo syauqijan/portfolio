@@ -5,7 +5,7 @@ const experiences = () => {
         {
             position: 'Head of Web Developer',
             organization: `Ganesha Film Festival`,
-            period: 'August 2023 - Present',
+            period: 'August 2023 - March 2024',
             description: 'As the Head of Web Developer for the Ganesha Film Festival, I led a team of talented engineers responsible for developing and maintaining the festival\'s technology platform. My role involved coordinating with cross-functional teams, overseeing the architecture and implementation of various backend systems, and ensuring the seamless flow of data and interactions between different components.',
             image: GFF,
             location: 'Bandung, Indonesia',
