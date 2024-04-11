@@ -1,5 +1,5 @@
 import './App.css'
-import About from './context/about'
+import About from './context/greetings'
 import Experiences from './context/experiences'
 import Projects from './context/project'
 import Closing from './context/closing'
