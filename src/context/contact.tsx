@@ -15,7 +15,7 @@ const contact = () => {
             <div   className=' text-lg md:text-xl md:pr-64 md:justify-items-start md:text-left md:items-start'>
             <Reveal> 
                 <p className=' font-extralight items-center text-justify md:justify-self-start md:text-left md:items-start '>
-                Shoot me an email if you want to connect or have any questions! You can also find me on <span className="text-quaternary"><a href="https://www.linkedin.com/in/syauqi-jannatan-510172252/" target="_blank">Linkedin</a></span> or <span className="text-quaternary"><a href="https://www.instagram.com/syauqijan/" target="_blank">Instagram</a></span> if that's more your speed.
+                For further inqueries, you can reach me through email. You can also find me on <span className="text-quaternary"><a href="https://www.linkedin.com/in/syauqi-jannatan-510172252/" target="_blank">Linkedin</a></span> or <span className="text-quaternary"><a href="https://www.instagram.com/syauqijan/" target="_blank">Instagram</a></span>.
                 </p>
             </Reveal> 
 

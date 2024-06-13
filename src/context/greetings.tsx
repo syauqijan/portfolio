@@ -42,7 +42,7 @@ export default function About() {
                 {/* <Reveal> */}
                 <p className={`font-extralight text-lg text-justify pl-5 pr-5 md:pr-32 md:pl-32 md:text-2xl transition-all duration-2000 ease-in-out ${isPVisible ? 'translate-y-0 opacity-100' : 'translate-y-32 opacity-0  ' }`}>
                   an undergraduate Informatics student from the School of Electrical Engineering and Informatics at Bandung Institute of Technology (ITB).
-                  I am also interested in computer related things such as web development and software development. I'm open to opportunities where I can contribute, learn and grow.
+                  I am interested in computer related things such as web development and software development. I'm open to opportunities where I can contribute, learn and grow.
                 </p>
                 {/* </Reveal> */}
               </section>

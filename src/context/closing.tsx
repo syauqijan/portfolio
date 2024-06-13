@@ -30,7 +30,7 @@ const closing = () => {
         </p>
         </Reveal>
         <Reveal>
-        <p className='font-extralight text-lg md:text-2xl'>
+        <p className='font-extralight text-sm md:text-2xl'>
             I mean it. Seriously.
         </p>
         </Reveal>

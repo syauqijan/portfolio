@@ -5,6 +5,7 @@ import MU5 from '../assets/images/mufitu.png';
 import MU6 from '../assets/images/musayit.png';
 import MU2 from '../assets/images/musere.png';
 import MU3 from '../assets/images/mubondo.svg';
+import MUSENO from '../assets/images/museno.png';
 import react from '../assets/images/projects/react.svg';
 import nodejs from '../assets/images/projects/node-js.svg';
 import nextjs from '../assets/images/projects/next-js.svg';
@@ -12,9 +13,11 @@ import tailwind from '../assets/images/projects/tailwind.svg';
 import bootstrap from '../assets/images/projects/bootstrap.svg';
 import php from '../assets/images/projects/php.svg';
 import css from '../assets/images/projects/css.svg';
+import golang from '../assets/images/projects/golang.svg';
 import python from '../assets/images/projects/python.svg';
 import js from '../assets/images/projects/js.svg';
 import kotlin from '../assets/images/projects/kotlin.svg';
+import docker from '../assets/images/projects/docker.svg';
 // import github from '../assets/images/projects/github.svg';
 import GitHubIcon from '@mui/icons-material/GitHub';
 import { Menu, Transition } from '@headlessui/react';
@@ -38,6 +41,8 @@ interface ProjectProps {
     mwpython?: boolean;
     mwjs?: boolean;
     mwktl?: boolean;
+    mwgolang?: boolean;
+    mwdocker?: boolean;
     github?: string;
     live?: string;
   };
@@ -112,12 +117,14 @@ const Project: FC<ProjectProps> = ({ project }) => {
                                             {renderTechIcon(project.mwnode, nodejs)}
                                             {renderTechIcon(project.mwnext, nextjs)}
                                             {renderTechIcon(project.mwbootstrap, bootstrap)}
+                                            {renderTechIcon(project.mwgolang, golang)}
                                             {renderTechIcon(project.mwtailwind, tailwind)}
                                             {renderTechIcon(project.mwphp, php)}
                                             {renderTechIcon(project.mwcss, css)}
                                             {renderTechIcon(project.mwpython, python)}
                                             {renderTechIcon(project.mwjs, js)}
                                             {renderTechIcon(project.mwktl, kotlin)}
+                                            {renderTechIcon(project.mwdocker, docker)}
 
                                         </div>
                                         </Reveal>
@@ -200,7 +207,20 @@ const Projects = () => {
             mwpython: false,  
         },
         {
-            name: '02 - Serenade Music Streaming App',
+            name: '02 - Seno Medika Clinik Administation',
+            position: `Fullstack Developer | UI Designer`,
+            description: 'Developed a comprehensive web application for clinic administration, utilizing Agile Methodology in collaboration with a team of seven developers. This application is designed to streamline clinic operations by incorporating seven distinct roles within the system, each with specific functionalities. The roles include Front Office for patient registration and appointment scheduling, Doctors for medical record management and diagnosis input, and other essential positions.',
+            madewith: '',
+            image: MUSENO,
+            github: 'https://github.com/syauqijan/serenade',
+            live: 'https://serenade-music.vercel.app/',
+            mwnext: true,
+            mwgolang: true,
+            mwtailwind: true,
+            mwdocker: true,
+        }, 
+        {
+            name: '03 - Serenade Music Streaming App',
             position: `Fullstack Developer | UI Designer`,
             description: 'A music streaming app that fetches music from an external database and has the functionality of a typical music streaming app.',
             madewith: '',
@@ -209,10 +229,10 @@ const Projects = () => {
             live: 'https://serenade-music.vercel.app/',
             mwnext: true,
             mwtailwind: true,
-        }, 
+        },
 
         {
-            name: '03 - BondoMan Android App',
+            name: '04 - BondoMan Android App',
             position: `Mobile Developer`,
             description: 'A mobile application that is used to record expenses and income. Each records can be visualized in a pie chart. Then, you can scan a note to record expenses. There is also a feature to downloaded each records as XLSX and XLS and can also be sent via E-Mail.',
             madewith: '',
@@ -223,7 +243,7 @@ const Projects = () => {
         }, 
 
         {
-            name: '04 - SEA Cinema Website',
+            name: '05 - SEA Cinema Website',
             position: `Frontend Developer | UI Designer`,
             description: 'A web application that allows users to browse movies, book tickets, and manage their cinema experience. Users can view movie details, including synopsis, cast, age rating, and ticket price. They can also select seats, provide personal information, and make payments for their movie tickets.',
             madewith: '',
@@ -236,7 +256,7 @@ const Projects = () => {
         
         },
         {
-            name: '05 - FitU App',
+            name: '06 - FitU App',
             position: `Frontend Developer | UI Designer`,
             description: 'A desktop application that can help users create personal exercise programs. The FitU application offers various types of exercises that can be personalized according to the user\'s needs. The FitU application offers various features to support its users\' exercise, such as movement examples and exercise instructions to ensure that users perform exercises correctly and safely.',
             madewith: '',
@@ -247,7 +267,7 @@ const Projects = () => {
         
         },
         {
-            name: '06 - SayIt Website',
+            name: '07 - SayIt Website',
             position: `Fullstack Developer | UI Designer`,
             description: 'A website application that allows users to report cases of sexual harassment, there are also articles about sexual education and a timeline that allows users to upload posts about sexual education and mental health',
             madewith: '',
