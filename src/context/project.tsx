@@ -212,8 +212,8 @@ const Projects = () => {
             description: 'Developed a comprehensive web application for clinic administration, utilizing Agile Methodology in collaboration with a team of seven developers. This application is designed to streamline clinic operations by incorporating seven distinct roles within the system, each with specific functionalities. The roles include Front Office for patient registration and appointment scheduling, Doctors for medical record management and diagnosis input, and other essential positions.',
             madewith: '',
             image: MUSENO,
-            github: 'https://github.com/syauqijan/serenade',
-            live: 'https://serenade-music.vercel.app/',
+            github: 'https://github.com/syauqijan/seno-medika-clinic-adm-fe',
+        
             mwnext: true,
             mwgolang: true,
             mwtailwind: true,
