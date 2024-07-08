@@ -2,7 +2,7 @@ import './App.css'
 import About from './context/greetings'
 import Experiences from './context/experiences'
 import Projects from './context/project'
-import Closing from './context/closing'
+// import Closing from './context/closing'
 import Contact from './context/contact'
 
 export default function App() {
@@ -12,7 +12,7 @@ export default function App() {
     <Experiences />
     <Projects />
     <Contact />
-    <Closing />
+    {/* <Closing /> */}
     
     </div>
     

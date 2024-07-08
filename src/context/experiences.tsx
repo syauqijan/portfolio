@@ -34,13 +34,13 @@ const experiences = () => {
       {journeyArray.map((journey, idx) => (
         <div className="" key={idx}>
 
-          <div className='p-2 flex  justify-center text-center'>
-          {/* <div className='my-5 md:my-0 rounded-lg overflow-hidden w-48 h-48 md:mr-16 bg-slate-100 text-center ' >
+          {/* <div className='p-2 flex justify-center text-center'>
+          <div className='my-5 md:my-0 rounded-lg overflow-hidden w-48 h-48 md:mr-16 bg-slate-100 text-center ' >
               <Image src={journey.image} alt="Logo Company" />
-            </div> */}
-          </div>
+            </div>
+          </div> */}
     
-          <div className='flex flex-col justify-center'>
+          <div className='flex flex-col justify-center py-12'>
             <div className='flex flex-row items-center justify-between '>
               <Reveal>
               <p className='font-medium text-xl md:text-3xl my-2 text-left '>{journey.organization}</p>
