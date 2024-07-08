@@ -147,7 +147,7 @@ const Contact = () => {
                     <div className="flex justify-center md:justify-end">
                         <button
                             type='submit'
-                            className='bg-quaternary w-28 hover:bg-quaternaryDark text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline'
+                            className='bg-quaternary w-28 hover:bg-quaternaryDark text-primary font-medium py-2 px-4 rounded-md focus:outline-none focus:shadow-outline'
                         >
                             {loading ? "Sending..." : "Send"}
                         </button>

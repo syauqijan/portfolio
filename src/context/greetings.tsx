@@ -4,13 +4,16 @@ import { TypeAnimation } from "react-type-animation";
 export default function About() {
   const [isMounted, setIsMounted] = useState(false);
   const [isPVisible, setIsPVisible] = useState(false);
+  const handleDownload = () => {
+    window.open('https://drive.google.com/file/d/1JiwWwtzVgP2tzyRJ2xeqW9J7D2R3ZGUM/view', '_blank');
+  }
   useEffect(() => {
       const timeout = setTimeout(() => setIsMounted(true), 100);
       return () => clearTimeout(timeout);
   }, []);
   useEffect(() => {
     if (isMounted) {
-      const timeout = setTimeout(() => setIsPVisible(true), 600); // adjust delay as needed
+      const timeout = setTimeout(() => setIsPVisible(true), 600);
       return () => clearTimeout(timeout);
     }
   }, [isMounted]);
@@ -46,6 +49,9 @@ export default function About() {
                 </p>
                 {/* </Reveal> */}
               </section>
+              <button className={`bg-quaternary w-36 hover:bg-quaternaryDark text-primary font-medium mt-10 md:mt-16 md:py-3 py-2 px-4 rounded-md focus:outline-none focus:shadow-outline transition-all duration-2000 ease-in-out ${isPVisible ? 'translate-y-0 opacity-100' : 'translate-y-32 opacity-0  ' }`} onClick={handleDownload}>
+                Download CV
+              </button>
             
 
       </div>

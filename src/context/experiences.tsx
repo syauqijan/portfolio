@@ -40,7 +40,7 @@ const experiences = () => {
             </div>
           </div> */}
     
-          <div className='flex flex-col justify-center py-12'>
+          <div className='flex flex-col justify-center py-6 md:py-12'>
             <div className='flex flex-row items-center justify-between '>
               <Reveal>
               <p className='font-medium text-xl md:text-3xl my-2 text-left '>{journey.organization}</p>
