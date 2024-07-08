@@ -1,15 +1,23 @@
-import GFF from '../assets/images/gff.jpg'; 
+// import GFF from '../assets/images/gff.jpg'; 
 import { Reveal } from '../components/Reveal';
 const experiences = () => {
     const journeyArray = [
         {
-            position: 'Head of Web Developer',
-            organization: `Ganesha Film Festival`,
-            period: 'August 2023 - March 2024',
-            description: 'As the Head of Web Developer for the Ganesha Film Festival, I led a team of talented engineers responsible for developing and maintaining the festival\'s technology platform. My role involved coordinating with cross-functional teams, overseeing the architecture and implementation of various backend systems, and ensuring the seamless flow of data and interactions between different components.',
-            image: GFF,
-            location: 'Bandung, Indonesia',
+            position: 'Fullstack Developer Internship',
+            organization: 'PT Phincon',
+            period: 'July 2024 - Present',
+            description: 'During my Fullstack Developer Internship at PT Phincon, I contributed to the development of web applications for MyTelkomsel MicroServices and API. I collaborated with a professional team to implement visual and interactive elements, ensuring the applications met the quality standards of PT Phincon.',
+            // image: GFF,
+            location: 'Jakarta, Indonesia',
         },
+        {
+          position: 'Head of Web Developer',
+          organization: `Ganesha Film Festival`,
+          period: 'August 2023 - March 2024',
+          description: 'As the Head of Web Developer for the Ganesha Film Festival, I led a team of talented engineers responsible for developing and maintaining the festival\'s technology platform. My role involved coordinating with cross-functional teams, overseeing the architecture and implementation of various backend systems, and ensuring the seamless flow of data and interactions between different components.',
+          // image: GFF,
+          location: 'Bandung, Indonesia',
+      },
         
         
     ];
