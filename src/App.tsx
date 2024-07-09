@@ -2,8 +2,9 @@ import './App.css'
 import About from './context/greetings'
 import Experiences from './context/experiences'
 import Projects from './context/project'
-// import Closing from './context/closing'
+import Closing from './context/closing'
 import Contact from './context/contact'
+import Skills from './context/skills'
 
 export default function App() {
   return (
@@ -11,8 +12,9 @@ export default function App() {
     <About />
     <Experiences />
     <Projects />
+    <Skills />
+    <Closing />
     <Contact />
-    {/* <Closing /> */}
     
     </div>
     

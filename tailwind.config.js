@@ -18,6 +18,7 @@ module.exports = {
         tertiary: '#1E79B6',
         // quaternary: '#FCBF2E',
         quaternary: '#00E788',
+        quinary: '#CCFFEA',
 
         darkBlue : '#314756',
       },
@@ -26,8 +27,7 @@ module.exports = {
       },
       
       spacing: {
-        '0': '0', // Set the default padding to 0
-        // other spacing values...
+        '0': '0', 
       },
       transitionProperty: {
         'height': 'height',

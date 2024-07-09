@@ -32,10 +32,12 @@ const Contact = () => {
         'service_fu8yzrj',
         'template_yjcnipc',
         {
-          from_name: form.name,
-          to_name: "Syauqi",
-          from_email: form.email,
-          to_email: "syauqijannatan@gmail.com",
+          // from_name: form.name,
+          // to_name: "Syauqi",
+          // from_email: form.email,
+          // to_email: "syauqijannatan@gmail.com",
+          name: form.name,
+          email: form.email,
           message: form.message,
         },
         'nudKjBERnLiF-C7l1'

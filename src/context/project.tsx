@@ -287,7 +287,7 @@ const Projects = () => {
         <section id="projects" className="pr-8 pl-8 pb-28 md:pr-32 md:pl-32">
           <div className="items-center flex flex-row space-x-4 mb-10 ">
             <div className="flex items-center justify-between w-full">
-              <hr className="border-1 border-lightAccent flex-grow" />
+              <hr className="border-1 border-lightAccent flex-grow pb-10 md:pb-4" />
               <Reveal>
                 <h2 className="h-20 text-4xl font-black font-poppins md:text-6xl mx-4">
                   Projects<span className="text-quaternary">.</span>
