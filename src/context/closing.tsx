@@ -5,7 +5,7 @@ const closing = () => {
     const days = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];
     const currentDay = days[new Date().getDay()];
   return (
-    <div className=" flex flex-col justify-center  text-left pl-8 pr-8 pb-20 space-y-2 md:pl-32 md:pr-32 md:pt-32 md:pb-36 ">
+    <div className=" flex flex-col justify-center  text-left pl-8 pr-8 pb-20 pt-0 space-y-2 md:pl-32 md:pr-32 md:pt-32 md:pb-36 ">
         <Reveal>
         <p className=" text-xl font-medium md:text-3xl "> 
             Thank you for sticking around <span className=''>&</span>

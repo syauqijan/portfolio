@@ -30,14 +30,12 @@ return (
         <div className="text-center mb-8">
             <h2 className="text-4xl md:text-6xl font-poppins font-black">Skills<span className='text-quaternary'>.</span></h2>
         </div>
-
-        <div className="flex justify-center gap-48 items-center py-8 z-10 relative">
+        <div className="flex justify-center gap-5 md:gap-48 items-center py-8 z-10 relative">
             <FontAwesomeIcon icon={faHtml5} size="5x" className="text-secondary" />
             <FontAwesomeIcon icon={faJs} size="5x" className="text-secondary" />
             <FontAwesomeIcon icon={faReact} size="5x" className="text-secondary" />
             <FontAwesomeIcon icon={faNode} size="5x" className="text-secondary" />
         </div>
-
         <div className="hidden md:block">
             <WordClouds />
         </div>
