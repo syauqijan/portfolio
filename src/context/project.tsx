@@ -6,6 +6,7 @@ import MU6 from '../assets/images/musayit.png';
 import MU2 from '../assets/images/musere.png';
 import MU3 from '../assets/images/mubondo.svg';
 import MUSENO from '../assets/images/museno.png';
+import MUSURVIVAL from '../assets/images/musurvival.png';
 import react from '../assets/images/projects/react.svg';
 import nodejs from '../assets/images/projects/node-js.svg';
 import nextjs from '../assets/images/projects/next-js.svg';
@@ -18,6 +19,7 @@ import python from '../assets/images/projects/python.svg';
 import js from '../assets/images/projects/js.svg';
 import kotlin from '../assets/images/projects/kotlin.svg';
 import docker from '../assets/images/projects/docker.svg';
+import unity from '../assets/images/projects/unity.svg';
 // import github from '../assets/images/projects/github.svg';
 import GitHubIcon from '@mui/icons-material/GitHub';
 import { Menu, Transition } from '@headlessui/react';
@@ -43,6 +45,7 @@ interface ProjectProps {
     mwktl?: boolean;
     mwgolang?: boolean;
     mwdocker?: boolean;
+    mwunity?: boolean;
     github?: string;
     live?: string;
   };
@@ -125,6 +128,7 @@ const Project: FC<ProjectProps> = ({ project }) => {
                                             {renderTechIcon(project.mwjs, js)}
                                             {renderTechIcon(project.mwktl, kotlin)}
                                             {renderTechIcon(project.mwdocker, docker)}
+                                            {renderTechIcon(project.mwunity, unity)}
 
                                         </div>
                                         </Reveal>
@@ -241,9 +245,20 @@ const Projects = () => {
             mwktl: true,
         
         }, 
+        {
+            name: '05 - Survival Shooter The Sequel Game',
+            position: `Game Developer`,
+            description: 'an advanced development of the Unity Survival Shooter tutorial provided by Agate. Additional features include story mode, main menu, load and save game, shopkeeper, weapon, pet, orb power up, and cheats.',
+            madewith: '',
+            image: MUSURVIVAL,
+            github: 'https://github.com/syauqijan/survival-shooter-unity',
+            live : 'https://syauqijan.github.io/survival_shooter/',
+            mwunity: true,
+        
+        }, 
 
         {
-            name: '05 - SEA Cinema Website',
+            name: '06 - SEA Cinema Website',
             position: `Frontend Developer | UI Designer`,
             description: 'A web application that allows users to browse movies, book tickets, and manage their cinema experience. Users can view movie details, including synopsis, cast, age rating, and ticket price. They can also select seats, provide personal information, and make payments for their movie tickets.',
             madewith: '',
@@ -256,7 +271,7 @@ const Projects = () => {
         
         },
         {
-            name: '06 - FitU App',
+            name: '07 - FitU App',
             position: `Frontend Developer | UI Designer`,
             description: 'A desktop application that can help users create personal exercise programs. The FitU application offers various types of exercises that can be personalized according to the user\'s needs. The FitU application offers various features to support its users\' exercise, such as movement examples and exercise instructions to ensure that users perform exercises correctly and safely.',
             madewith: '',
@@ -267,7 +282,7 @@ const Projects = () => {
         
         },
         {
-            name: '07 - SayIt Website',
+            name: '08 - SayIt Website',
             position: `Fullstack Developer | UI Designer`,
             description: 'A website application that allows users to report cases of sexual harassment, there are also articles about sexual education and a timeline that allows users to upload posts about sexual education and mental health',
             madewith: '',

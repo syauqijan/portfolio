@@ -10,14 +10,15 @@ const WordClouds = () => {
         aria-hidden="true"
         className="absolute inset-0 z-0"
     >
-      <p style={{ top: 50, left: '85%', fontSize: 23 }} className="absolute">HTML5</p>
-      <p style={{ top: 0, left: 150, fontSize: 25 }} className="absolute">NextJS</p>
+      <p style={{ top: 50, left: '85%', fontSize: 23 }} className="absolute">Git</p>
+      <p style={{ top: 25, left: '10%', fontSize: 20 }} className="absolute">Docker</p>
+      <p style={{ top: 0, left: '50%', fontSize: 25 }} className="absolute">Next</p>
       <p style={{ top: 200, left: -60, fontSize: 14 }} className="absolute">CSS3</p>
       <p style={{ top: '30%', left: '35%', fontSize: 18 }} className="absolute">Figma</p>
       <p style={{ top: 40, left: '75%', fontSize: 12 }} className="absolute">PHP</p>
       <p style={{ top: 380, left: '85%', fontSize: 18 }} className="absolute">MySQL</p>
-      <p style={{ top: 320, left: '65%', fontSize: 18 }} className="absolute">ExpressJS</p>
-      <p style={{ top: 350, left: 210, fontSize: 20 }} className="absolute">TailwindCSS</p>
+      <p style={{ top: 320, left: '65%', fontSize: 18 }} className="absolute">Express</p>
+      <p style={{ top: 350, left: 210, fontSize: 20 }} className="absolute">Tailwind</p>
       <p style={{ top: 120, left: '22%', fontSize: 12 }} className="absolute">PostgreSQL</p>
     </Parallax>
   );

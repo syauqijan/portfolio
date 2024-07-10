@@ -36,7 +36,7 @@ export default function Greetings() {
               </section>
               <div>
                   <p className={`md:tracking-wide md:font-light text-lg text-center pl-5 pr-5 md:pr-32 md:pl-32 md:text-4xl transition-all duration-2000 ease-in-out ${isPVisible ? 'translate-y-0 opacity-100' : 'translate-y-32 opacity-0  ' }`}>
-                    Fullstack Developer | Software Development Enthusiast
+                    Fullstack Developer & Software Development Enthusiast
                   </p>
                 </div>
       </div>  
