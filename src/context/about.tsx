@@ -6,7 +6,7 @@ export default function About() {
   const [isMounted, setIsMounted] = useState(false);
   const [isPVisible, setIsPVisible] = useState(false);
   const handleDownload = () => {
-    window.open('https://drive.google.com/file/d/1JiwWwtzVgP2tzyRJ2xeqW9J7D2R3ZGUM/view', '_blank');
+    window.open('https://drive.google.com/file/d/1k_0Z9BQKyb68pb0FeAh0umvJsMXT5Ny3/view?usp=sharing', '_blank');
   }
   useEffect(() => {
       const timeout = setTimeout(() => setIsMounted(true), 100);
@@ -36,12 +36,12 @@ export default function About() {
                 <div className="flex md:w-2/3 flex-col">
                   <Reveal>
                     <p className={`font-extralight text-lg text-justify pl-5 pr-5 md:pr-32 md:pl-32 md:text-2xl transition-all duration-2000 ease-in-out ${isPVisible ? 'translate-y-0 opacity-100' : 'translate-y-32 opacity-0  ' }`}>
-                      an undergraduate Informatics student from the School of Electrical Engineering and Informatics at Bandung Institute of Technology (ITB).
+                      a fresh graduate in Informatics student from the School of Electrical Engineering and Informatics at Bandung Institute of Technology (ITB).
                       I am interested in computer related things such as web and mobile development. I'm open to opportunities where I can contribute, learn and grow.
                     </p>
                   </Reveal>
                   <div className="flex justify-center items-center  mt-7">
-                    <button className={`flex justify-self-center items-self-center bg-quaternary w-36 hover:bg-quaternaryDark text-primary font-medium md:py-3 py-2 px-4 rounded-md focus:outline-none focus:shadow-outline transition-all duration-2000 ease-in-out ${isPVisible ? 'translate-y-0 opacity-100' : 'translate-y-32 opacity-0  ' }`} onClick={handleDownload}>
+                    <button onClick={handleDownload} className={`flex justify-self-center items-self-center bg-quaternary w-36 hover:bg-quaternaryDark text-primary font-medium md:py-3 py-2 px-4 rounded-md focus:outline-none focus:shadow-outline transition-all duration-2000 ease-in-out ${isPVisible ? 'translate-y-0 opacity-100' : 'translate-y-32 opacity-0  ' }`} >
                       Download CV
                     </button>
                   </div>

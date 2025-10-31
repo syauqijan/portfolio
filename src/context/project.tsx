@@ -20,6 +20,7 @@ import js from '../assets/images/projects/js.svg';
 import kotlin from '../assets/images/projects/kotlin.svg';
 import docker from '../assets/images/projects/docker.svg';
 import unity from '../assets/images/projects/unity.svg';
+import postgre from '../assets/images/projects/postgres.svg';
 // import github from '../assets/images/projects/github.svg';
 import GitHubIcon from '@mui/icons-material/GitHub';
 import { Menu, Transition } from '@headlessui/react';
@@ -46,6 +47,7 @@ interface ProjectProps {
     mwgolang?: boolean;
     mwdocker?: boolean;
     mwunity?: boolean;
+    mwpostgre?: boolean;
     github?: string;
     live?: string;
   };
@@ -129,6 +131,7 @@ const Project: FC<ProjectProps> = ({ project }) => {
                                             {renderTechIcon(project.mwktl, kotlin)}
                                             {renderTechIcon(project.mwdocker, docker)}
                                             {renderTechIcon(project.mwunity, unity)}
+                                            {renderTechIcon(project.mwpostgre, postgre)}
 
                                         </div>
                                         </Reveal>
@@ -203,7 +206,7 @@ const Projects = () => {
             madewith: 'React, NextJS, TailwindCSS',
             image: MU,
             github: 'https://github.com/syauqijan/ganffest',
-            live: 'https://ganeshafilmfestival.com',
+            live: 'https://ganeshafilmfestival.id',
             mwnode: true,
             mwreact: true,
             mwnext: true,
@@ -221,6 +224,7 @@ const Projects = () => {
             mwnext: true,
             mwgolang: true,
             mwtailwind: true,
+            mwpostgre : true,
             mwdocker: true,
         }, 
         {
